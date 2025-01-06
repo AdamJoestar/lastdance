@@ -11,6 +11,8 @@
 <body>
     <a href="/">Home</a>
     <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/blog">Blog</a>
     <h1>Rumah🏠</h1>
     <script src="js/script.js"></script>
 </body>

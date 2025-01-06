@@ -9,6 +9,8 @@
 <body>
     <a href="/">Home</a>
     <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/blog">Blog</a>
     <h1>Woilah</h1>
     <h1>Namaku : {{ $name }}</h1>
     <img src="img/kucingaming.jpeg" alt="kocang" width="200" >
