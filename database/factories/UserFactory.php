@@ -42,3 +42,10 @@ class UserFactory extends Factory
         ]);
     }
 }
+
+
+
+
+
+
+// App\Models\User::factory(10)->create(); buat apa ya?
