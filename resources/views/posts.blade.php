@@ -23,7 +23,7 @@
                         <a href="/authors/{{ $post->author->username }}">
                             <div class="flex items-center space-x-3">
                                 <img class="w-7 h-7 rounded-full"
-                                src="https://i.pinimg.com/736x/7d/01/c6/7d01c65da81f39610bfe30cd34446a58.jpg"
+                                src="{{ $post->author->image }}"
                                 alt="{{ $post->author->name }}" />
                                 <span class="font-medium text-xs dark:text-white hover:underline">
                                     {{ $post->author->name }}

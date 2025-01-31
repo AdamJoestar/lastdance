@@ -18,7 +18,7 @@
                         <address class="flex items-center my-6 not-italic">
                             <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                                 <img class="mr-4 w-16 h-16 rounded-full"
-                                    src="https://i.pinimg.com/736x/86/b9/9e/86b99ef044de1e7a0c46aa954ea1f78d.jpg">
+                                    src="{{ $post->author->image }}">
                                 <div>
                                     <a href="/authors/{{ $post->author->username }}" rel="author"
                                         class="text-xl font-bold text-gray-900 dark:text-white hover:underline">{{ $post->author->name }}</a>
