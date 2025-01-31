@@ -10,6 +10,8 @@ class Post extends Model
 {
     use HasFactory;
     //protected $table = 'post'; buat apa ya?
+
+    protected $with = ['author', 'category'];
     protected $fillable = ['title', 'author', 'slug','body'];
 
     public function author():BelongsTo{
