@@ -19,7 +19,7 @@ Route::get('/about', function () {
 Route::get('/posts', function () {
     // $posts = Post::with(['author','category'])->latest()->get();
 
-    return view('posts', ['title' => 'BlogPage', 'posts' => Post::filter(request(['search','category','author']))->latest()->get()]);
+    return view('posts', ['title' => 'BlogPage', 'posts' => Post::filter(request(['search','category','author']))->latest()->paginate(10)->withQueryString()]);
 });
 
 Route::get('/posts/{post:slug}', function (Post $post) {
