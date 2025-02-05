@@ -74,11 +74,11 @@
       <div class="border-t border-gray-700 pb-3 pt-4">
         <div class="flex items-center px-5">
           <div class="shrink-0">
-            <img class="size-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <img class="size-10 rounded-full" src="https://i.pinimg.com/736x/24/82/98/24829835257cf314ee22d9e709b67ef9.jpg" alt="">
           </div>
           <div class="ml-3">
-            <div class="text-base/5 font-medium text-white">Tom Cook</div>
-            <div class="text-sm font-medium text-gray-400">tom@example.com</div>
+            <div class="text-base/5 font-medium text-white">Rudy Racing</div>
+            <div class="text-sm font-medium text-gray-400">rudy@Racing.com</div>
           </div>
         </div>
         <div class="mt-3 space-y-1 px-2">
